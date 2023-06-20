@@ -37,7 +37,7 @@ requirements.txt
 - pandas
 - numpy
 - matplotlib
-- seaborn
+- seaborn, 'seasborn' uses matplotlib
 
 
 ## Installing Dependencies
