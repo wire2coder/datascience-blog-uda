@@ -1,11 +1,15 @@
-## Table of Contents
+# Table of Contents
 
 - [Description](#description)
+- [Goal](#goal)
+- [Files](#files)
 - [Dependencies](#dependencies)
 - [Installing](#installing)
 - [Screenshots](#screenshots)
 
-## Description
+# Description
+
+https://medium.com/@x64amd/analyze-stack-overflows-2022-survey-for-programmers-who-are-in-thailand-ad196105146a
 
 For this project, create a blog post and Github repository to begin building a data science portfolio. 
 
@@ -15,22 +19,25 @@ For this project, create a blog post and Github repository to begin building a d
 - Evaluate your results.
 - Share your insights with stakeholders in a blog post.
 
-## Goal
+# Goal
 
-Using these columns from the dataframe, I will answer 4 questions
+Using these columns from the dataframe, I will answer these questions
 
 - What is the required programming language use most in Thailand?
 - What is the required web framework use most in Thailand?
 - What is the required database use most in Thailand?
 - What are the required tools and technologies use most in Thailand?
+ 
+ - Analyze the demographics data
+ - Analyze the salary data
 
-## Files
+# Files
 - /data1/developer_survey_2020/survey_results_public.csv
 - /data1/developer_survey_2020/survey_results_schema.csv
 - /data1/developer_survey_2020/README_2020.txt
 
 
-## Dependencies
+# Dependencies
 
 requirements.txt
 
@@ -40,7 +47,7 @@ requirements.txt
 - seaborn, 'seasborn' uses matplotlib
 
 
-## Installing Dependencies
+# Installing Dependencies
 
 ```
 python -m venv myenv
@@ -55,10 +62,10 @@ pip install -r requirements.txt
 ```
 
 
-## Screenshots
-![Alt text](screenshots/1.png)
-![Alt text](screenshots/2.png)
-![Alt text](screenshots/3.png)
+# Screenshots
+![Alt text](screenshots/orgsize.png)
+![Alt text](screenshots/edlevel.png)
+
 
 
 
